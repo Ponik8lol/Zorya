@@ -1,13 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Watches Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #fff; /* white background */
+  color: #333; /* black text */
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #333; /* black background */
+  color: #fff; /* white text */
   padding: 10px 0;
   text-align: center;
 }
@@ -25,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #fff; /* white text */
   text-decoration: none;
 }
 
@@ -38,27 +47,29 @@ nav ul li a {
 #showcase {
   background: url('showcase.jpg') no-repeat center center/cover;
   height: 400px;
-  color: #fff;
+  color: #fff; /* white text */
   text-align: center;
   padding-top: 100px;
+  background-color: #2f4f7f; /* navy blue background */
 }
 
 #showcase h1 {
   font-size: 55px;
   margin-top: 0;
+  color: #ffd700; /* gold text */
 }
 
 .section {
   padding: 20px 0;
   margin: 20px 0;
-  background: #fff;
+  background: #fff; /* white background */
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .section h2 {
   text-align: center;
-  color: #333;
+  color: #333; /* black text */
 }
 
 .products {
@@ -68,7 +79,7 @@ nav ul li a {
 }
 
 .product {
-  background: #fff;
+  background: #fff; /* white background */
   border: 1px solid #ddd;
   margin: 10px;
   padding: 10px;
@@ -90,7 +101,7 @@ nav ul li a {
 }
 
 .member,.testimonial {
-  background: #fff;
+  background: #fff; /* white background */
   border: 1px solid #ddd;
   margin: 10px;
   padding: 10px;
@@ -101,8 +112,8 @@ nav ul li a {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #333; /* black background */
+  color: #fff; /* white text */
   text-align: center;
   padding: 10px 0;
 }
@@ -132,11 +143,13 @@ input[type="text"], input[type="email"], textarea {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 8px;
+  background-color: #fff; /* white background */
+  color: #333; /* black text */
 }
 
 input[type="submit"] {
-  background-color: #333;
-  color: #fff;
+  background-color: #ffd700; /* gold background */
+  color: #333; /* black text */
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
@@ -144,5 +157,148 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #444;
+  background-color: #ffd700; /* gold background */
+  opacity: 0.8;
 }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Luxury Watches Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to Luxury Watches Shop</h1>
+            <p>Discover the finest collection of luxury watches from top brands.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="watch1.jpg" alt="Watch 1">
+                    <h3>Watch 1</h3>
+                    <p>$5000</p>
+                </div>
+                <div class="product">
+                    <img src="watch2.jpg" alt="Watch 2">
+                    <h3>Watch 2</h3>
+                    <p>$7000</p>
+                </div>
+                <div class="product">
+                    <img src="watch3.jpg" alt="Watch 3">
+                    <h3>Watch 3</h3>
+                    <p>$9000</p>
+                </div>
+                <div class="product">
+                    <img src="watch4.jpg" alt="Watch 4">
+                    <h3>Watch 4</h3>
+                    <p>$8000</p>
+                </div>
+                <div class="product">
+                    <img src="watch5.jpg" alt="Watch 5">
+                    <h3>Watch 5</h3>
+                    <p>$6000</p>
+                </div>
+                <div class="product">
+                    <img src="watch6.jpg" alt="Watch 6">
+                    <h3>Watch 6</h3>
+                    <p>$10000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Luxury Watches Shop, we pride ourselves on offering the finest collection of luxury watches. Our selection features timepieces from the world's most renowned brands, combining elegance, sophistication, and precision. Whether you're looking for a timeless classic or a modern masterpiece, you'll find the perfect watch at our shop.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team">
+                <div class="member">
+                    <img src="team1.jpg" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="member">
+                    <img src="team2.jpg" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Chief Designer</p>
+                </div>
+                <div class="member">
+                    <img src="team3.jpg" alt="Team Member 3">
+                    <h3>Mike Johnson</h3>
+                    <p>Head of Sales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"The best watch shop I have ever visited. The selection is amazing and the staff is incredibly helpful."</p>
+                    <h3>- Sarah Williams</h3>
+                </div>
+                <div class="testimonial">
+                    <p>"A truly luxurious experience. The watches are stunning and the customer service is top-notch."</p>
+                    <h3>- Robert Brown</h3>
+                </div>
+                <div class="testimonial">
+                    <p>"I found the perfect watch for my collection. Highly recommend this shop to any watch enthusiast."</p>
+                    <h3>- Emily Davis</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Luxury Watches Shop</p>
+        </div>
+    </footer>
+</body>
+</html>
