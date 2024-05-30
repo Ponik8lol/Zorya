@@ -32,7 +32,7 @@
             background-color: #575757;
         }
         .hero {
-            background-image: url('hero-image.jpg');
+            background-image: url('OIP.jpg');
             background-size: cover;
             background-position: center;
             height: 400px;
@@ -91,17 +91,17 @@
     </div>
     <div class="main-content">
         <div class="watch-item">
-            <img src="watch1.jpg" alt="Watch 1">
+            <img src="OIP.jpg" alt="Watch 1">
             <div>
                 <h2>Watch Model 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis.</p>
+                <p>Tempus 1</p>
             </div>
         </div>
         <div class="watch-item">
-            <img src="watch2.jpg" alt="Watch 2">
+            <img src="OIP.jpg" alt="Watch 2">
             <div>
                 <h2>Watch Model 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis.</p>
+                <p>Tempus 2</p>
             </div>
         </div>
         <!-- Add more watch items as needed -->
